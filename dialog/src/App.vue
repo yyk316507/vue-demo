@@ -10,12 +10,6 @@ export default {
   name: 'app',
   methods: {
     showDialog () {
-      // this.$createDialogComponent({
-      //   $porps: {
-      //     title: 'hello',
-      //     content: 'huang'
-      //   }
-      // }).show()
       this.$createDialogComponent({
         $props: {
           seller: 'seller'

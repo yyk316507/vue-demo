@@ -10,20 +10,12 @@
 </template>
 
 <script>
+import popupMixin from '../../common/mixins/popup'
 export default {
   name: 'dialog-component',
+  mixins: [popupMixin],
   data () {
-    return {
-      visible: false
-    }
-  },
-  methods: {
-    show () {
-      this.visible = true
-    },
-    hide () {
-      this.visible = false
-    }
+    return {}
   }
 }
 </script>
